@@ -1,0 +1,68 @@
+/* test.css */
+
+
+input {
+  margin-bottom: 10px;
+}
+
+/* emotion.css */
+
+/* Add styles for the predicted emotion */
+.emotion-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+}
+
+/* Add specific styles for each emotion (customize as needed) */
+.emotion-text {
+  font-size: 58px;
+  position: relative;
+  left: 100px;
+  color: black;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.overlay-container {
+
+  position: relative;
+  top: '150px';
+  /* Ensure child elements are positioned relative to this container */
+  z-index: 1;
+  /* Ensure the overlay content appears above the background image */
+  display: flex;
+  /* Use flexbox for layout */
+  flex-direction: column;
+  /* Arrange child elements in a column */
+  justify-content: center;
+  /* Center child elements vertically */
+  align-items: center;
+  /* Center child elements horizontally */
+  padding: 20px;
+  /* Add padding for spacing */
+}
+
+.overlay-container input[type="file"],
+.overlay-container button {
+  margin-bottom: 20px;
+  /* Add margin between elements */
+}
+
+/* Add additional styling for other elements as needed */
